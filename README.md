@@ -1,5 +1,5 @@
 # 💫 About Me:
-¡Entendido! Aquí te va el perfil en inglés con una redacción más pulida:<br><br>Hi! I'm a 21-year-old programmer from Mexico, passionate about technology and always eager to expand my knowledge. I specialize in languages like Java, JavaScript, and HTML, and I work with databases such as SQLite and MySQL. I also enjoy adding style to my projects with CSS. I'm highly motivated to continue growing in the programming world and push towards the future of tech!
+I'm a 21-year-old programmer from Mexico, passionate about technology and always eager to expand my knowledge. I specialize in languages like Java, JavaScript, and HTML, and I work with databases such as SQLite and MySQL. I also enjoy adding style to my projects with CSS. I'm highly motivated to continue growing in the programming world and push towards the future of tech!
 
 
 ## 🌐 Socials:
