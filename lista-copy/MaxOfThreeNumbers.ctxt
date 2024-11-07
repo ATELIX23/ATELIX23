@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MaxOfThreeNumbers
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ b\ c
+comment2.target=int\ findMax(int,\ int,\ int)
+comment2.text=\r\n\ M\u00E9todo\ auxiliar\ que\ devuelve\ el\ mayor\ de\ tres\ n\u00FAmeros.\r\n\ \r\n\ @param\ a\ Primer\ n\u00FAmero\r\n\ @param\ b\ Segundo\ n\u00FAmero\r\n\ @param\ c\ Tercer\ n\u00FAmero\r\n\ @return\ El\ mayor\ de\ los\ tres\ n\u00FAmeros\r\n
+numComments=3
