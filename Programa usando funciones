@@ -1,0 +1,52 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class MayorArray {
+
+    // Función para leer el tamaño del array
+    public static int leerTamañoArray() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa el tamaño del array: ");
+        return scanner.nextInt();
+    }
+
+    // Función para inicializar el array con valores aleatorios
+    public static int[] inicializarArray(int tamaño) {
+        Random random = new Random();
+        int[] array = new int[tamaño];
+        for (int i = 0; i < tamaño; i++) {
+            array[i] = random.nextInt(100); // Genera números aleatorios entre 0 y 99
+        }
+        return array;
+    }
+
+    // Función para determinar el mayor valor del array
+    public static int determinarMayor(int[] array) {
+        int mayor = array[0];
+        for (int num : array) {
+            if (num > mayor) {
+                mayor = num;
+            }
+        }
+        return mayor;
+    }
+
+    public static void main(String[] args) {
+        // Paso 1: Leer tamaño del array
+        int tamaño = leerTamañoArray();
+
+        // Paso 2: Inicializar el array con valores aleatorios
+        int[] array = inicializarArray(tamaño);
+
+        // Mostrar el array
+        System.out.println("Array generado: ");
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
+        // Paso 3: Determinar el mayor valor del array
+        int mayor = determinarMayor(array);
+        System.out.println("El mayor valor del array es: " + mayor);
+    }
+}
